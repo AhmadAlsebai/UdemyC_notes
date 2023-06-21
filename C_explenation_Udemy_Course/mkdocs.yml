@@ -1,0 +1,56 @@
+site_name: Udemy Course on C
+
+theme:
+    name: material
+    language: en
+    logo: imgs/bootupscreen.bmp
+    font:
+      text: Roboto
+    palette:
+      scheme: default # slate
+      primary: blue
+    features:
+      - content.tooltips
+      - tabs: true
+      - content.code.annotate
+      - content.code.copy
+      - navigation.tabs
+      - content.code.selectable
+
+
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - tables
+  - admonition
+  - abbr
+  - meta
+  - def_list
+  - footnotes
+  - pymdownx.betterem
+  - admonition
+  - pymdownx.details
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.smartsymbols
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+
+
+plugins:
+  - glightbox
+
+#rules:
+#  strong-style:
+#    allowed_styles: ["*","_"]

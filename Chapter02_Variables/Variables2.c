@@ -10,6 +10,9 @@ int main()
     my_age = 28;
 
     // int (32bit, 4 Byte)
+    /* The U suffix appended to the numeric literal 28 indicates that it should be treated as an unsigned integer.
+    Although it is not required in this specific case because 28 can be represented by both signed and unsigned
+    integers without any issue, explicitly using the U suffix clarifies the intention of using an unsigned value*/
     unsigned int my_age2 = 28U;
 
     // floating point number

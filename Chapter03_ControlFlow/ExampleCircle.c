@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <math.h> // for powf
 #define PI 3.14159f
 
 int main()

@@ -11,7 +11,7 @@ int main()
 
     while (true)
     {
-        scanf("%f", &user_input);
+        scanf(" new number %f", &user_input);
 
         if (user_input > 10.0)
         {

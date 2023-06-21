@@ -4,7 +4,7 @@
 
 int getNumberFromUser()
 {
-    int number_from_user; //0x00: 12
+    int number_from_user; // 0x00: 12
 
     printf("Pls enter a integer number!\n");
     scanf("%d", &number_from_user);
@@ -14,12 +14,29 @@ int getNumberFromUser()
 
 int max(int number_a, int number_b)
 {
+    if (number_a > number_b)
+    {
+        return number_a;
+    }
+    else
+    {
+        return number_b;
+    }
 }
 
 int min(int number_a, int number_b)
 {
+    if (number_a < number_b)
+    {
+        return number_a;
+    }
+    else
+    {
+        return number_b;
+    }
 }
 
 float mean(int number_a, int number_b)
 {
+    return (number_a + number_b) / 2.0f;
 }
