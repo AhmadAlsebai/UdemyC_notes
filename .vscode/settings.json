@@ -6,7 +6,7 @@
   "editor.renderWhitespace": "trailing",
   "editor.suggestSelection": "first",
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": null,
   "editor.bracketPairColorization.enabled": false,
   "terminal.integrated.defaultProfile.windows": "Command Prompt",
   "terminal.integrated.enableMultiLinePasteWarning": false,
@@ -182,5 +182,6 @@
     "/w14928"
   ],
   "C_Cpp_Runner.useUndefinedSanitizer": false,
-  "C_Cpp_Runner.useLeakSanitizer": false
+  "C_Cpp_Runner.useLeakSanitizer": false,
+  "diffEditor.wordWrap": "off"
 }

@@ -3,7 +3,7 @@
 // call by value
 float add1(float v)
 {
-    printf("mem addr of v: %p\n", &v);
+    printf("mem addr of v: %f\n", &v);
 
     v = v + 1.0f;
     return v;

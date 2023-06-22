@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Github_Projects/UdemyC_notes/Chapter04_Loops",
-      "program": "c:/Github_Projects/UdemyC_notes/Chapter04_Loops/build/Debug/outDebug",
+      "cwd": "c:/Github_Projects/UdemyC_notes/Chapter06_Pointers/Debugging2",
+      "program": "c:/Github_Projects/UdemyC_notes/Chapter06_Pointers/Debugging2/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
